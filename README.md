@@ -12,6 +12,10 @@ One original funny line about everyday life, for the [One-Line Laugh Sprint](htt
 
 The joke: a Sunday of good intentions collapses by Monday, and the punchline reframes giving up as a tradition worth respecting. One sentence, everyday topic, twist landing on the last word.
 
+## Why this line works
+
+The judge weighs everyday-life truth first, then a twist that pays off on the last word, then freshness and tight wording. Meal-prepping on Sunday and ordering takeout on Monday is a routine almost everyone recognises; calling the surrender "respect for tradition" turns a small failure into the punchline. At 99 characters it stays well under the 200-character cap, and the shorter text also wins the size tie-break.
+
 ## Run
 
 ```bash

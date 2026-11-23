@@ -14,8 +14,12 @@ LINE = (
 
 
 def main() -> None:
+    # Fail loudly instead of submitting an invalid entry: the gate
+    # only accepts UTF-8 text of 1-200 characters.
+    if not 1 <= len(LINE) <= 200:
+        raise ValueError("entry line must be 1-200 characters")
     os.makedirs("/output", exist_ok=True)
-    with open("/output/entry.txt", "w", encoding="utf-8") as f:
+    with open("/output/entry.txt", "w", encoding="utf-8", newline="") as f:
         f.write(LINE)
 
 
